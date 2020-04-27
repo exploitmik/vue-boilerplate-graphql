@@ -1,0 +1,8 @@
+query getEpisode($episodeId: ID = 1) {
+  episode(id: $episodeId) {
+    name
+    characters {
+      name
+    }
+  }
+}

@@ -1,0 +1,8 @@
+query getCharacters($pageIndex: Int = 1) {
+  characters(page: $pageIndex) {
+    results {
+      name
+      image
+    }
+  }
+}
